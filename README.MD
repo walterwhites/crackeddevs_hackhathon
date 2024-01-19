@@ -22,3 +22,5 @@ This dataset represents the processed form of the original data. It undergoes va
 pip install fastapi uvicorn
 uvicorn api.app:app --reload --port 9876
 ```
+
+Then navigate to http://127.0.0.1:9876/docs
